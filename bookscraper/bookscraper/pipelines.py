@@ -90,6 +90,7 @@ class SaveToMySQLPipeline:
             upc VARCHAR(255),
             product_type VARCHAR(255),
             price_excl_tax DECIMAL,
+            price_incl_tax DECIMAL,
             tax DECIMAL,
             price DECIMAL,
             availability INTEGER,
